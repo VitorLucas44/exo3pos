@@ -1,35 +1,51 @@
 body {
     margin: 0
-  }
-  
-  /* Exo margin */
-  section{
+}
+
+/* Exo margin */
+section {
     background-color: #4da6ff;
-  }
-  h2{
+}
+
+h2 {
     background-color: yellow;
-    border:2px solid black;
-    font-size: 300px;
-  }
-  h2:nth-child(3){
+    border: 2px solid black;
+    height: 300px;
+}
+
+h2:nth-child(3) {
     margin: 50px;
-  }
-  h2:nth-child(4){
+}
+
+h2:nth-child(5) {
     margin-left: 20%;
-  }
-  h2:nth-child(5){
-    margin-left: auto;
-  }
-  /* fin exo margin */
-  
-  /* exo padding */
-  /* fin exo padding */
-  
-  /* exo display */
-  /* fin exo display */
-  
-  /* exo position */
-  /* fin exo position */
-  
-  /* exo position (priorité) */
-  /* fin exo position (priorité) */
+    /* background-color: red; */
+}
+
+h2:nth-child(7) {
+    margin: auto;
+    /* background-color: blueviolet; */
+}
+
+/* fin exo margin */
+
+/* exo padding */
+section:nth-child(2)>h2:nth-child(3) {
+    padding: 50px;
+    /* background-color: red; */
+}
+section:nth-child(2)>h2:nth-child(5){
+    padding-left: 20%;
+    /* background-color: aqua; */
+}
+
+/* fin exo padding */
+
+/* exo display */
+/* fin exo display */
+
+/* exo position */
+/* fin exo position */
+
+/* exo position (priorité) */
+/* fin exo position (priorité) */
