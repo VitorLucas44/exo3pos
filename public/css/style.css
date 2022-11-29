@@ -55,7 +55,30 @@ section:nth-child(3)>h2{
 }
 /* fin exo display */
 
+/* exo float */
+section:nth-child(4)>h2{
+    width: auto;
+    float: right;
+    /* background-color: crimson; */
+}
+section:nth-child(4){
+    overflow: visible;
+}
+/* fin exo float */
+
 /* exo position */
+section:nth-child(5) h2{
+    background-color: green;
+    position: absolute;
+    margin: 0;
+    top:0;
+    position: fixed;
+}
+section:nth-child(5){
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
 /* fin exo position */
 
 /* exo position (priorité) */
