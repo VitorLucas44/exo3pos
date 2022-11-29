@@ -77,9 +77,20 @@ section:nth-child(5) h2{
 section:nth-child(5){
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 50%;
 }
 /* fin exo position */
 
 /* exo position (priorité) */
+section:nth-child(6) h2:nth-child(4){
+    background-color: blue;
+    margin-left: 100px;
+    z-index: -1;
+}
+section:nth-child(6) h2{
+   position: absolute;
+}
+section:nth-child(6) h2:nth-child(3){
+    z-index: 1;
+}
 /* fin exo position (priorité) */
